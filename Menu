@@ -1,0 +1,13 @@
+package com.example.kidsdrawingapp
+
+open class Menu {
+     protected var foods: String = ""
+     protected var drinks: String= ""
+
+     public fun getFood(): String {
+     return foods
+    }
+    public fun getDrink(): String{
+        return drinks
+    }
+}
