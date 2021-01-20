@@ -1,0 +1,13 @@
+package com.example.kidsdrawingapp
+
+class Delivery(){
+    var orderlist : String = ""
+
+    constructor(orderlists : String) : this() {
+    this.orderlist = orderlists
+    }
+
+    public fun viewOrders() :String{
+        return orderlist
+    }
+}
