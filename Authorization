@@ -1,0 +1,24 @@
+package com.example.kidsdrawingapp
+
+import java.lang.IllegalArgumentException
+
+class Authorisation(email: String, password : String){
+    var email_id : String = email
+    get(){
+        return field
+    }
+    set(value){
+        field = value
+    }
+    var password : String = password
+    get(){
+        return field
+    }
+    set(value){
+        field = value
+    }
+    fun isEmpty(){
+        if((email_id.isEmpty()) || (password.isEmpty()))
+            throw IllegalArgumentException("Your fields are empty , type your email and password")
+    }
+}
