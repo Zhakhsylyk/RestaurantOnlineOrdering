@@ -1,0 +1,41 @@
+package com.example.kidsdrawingapp
+
+private class Client(creditCard: String, checkNumber : String, order: String){
+    var card : String = creditCard
+        get(){
+            return field
+        }
+        set(value){
+            field = value
+        }
+    var check : String = checkNumber
+        get(){
+            return field
+        }
+        set(value){
+            field = value
+        }
+    var clientorder : String = order
+        get(){
+            return field
+        }
+        set(value){
+            field = value
+        }
+    fun MakeClientOrder(){
+        val order = readLine()
+        println("Your order: $order")
+    }
+    fun Payment(creditCard: String,checkNumber: Int){
+        print("You have successfully payed for order! Your creditCard:$creditCard, checkNumber:$checkNumber")
+
+    }
+    fun main(args: Array<String>){
+        var c = Client("3420495044237069","#34039", "Pizza and Cola")
+    }
+
+
+
+
+
+}
