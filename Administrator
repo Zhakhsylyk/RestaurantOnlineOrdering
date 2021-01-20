@@ -1,0 +1,11 @@
+package com.example.kidsdrawingapp
+
+class Administrator: Menu(){
+    private fun setFood(foodlist : String){
+    this.foods = foodlist
+    }
+
+    private fun setDrink(drinklist : String){
+        this.drinks = drinklist
+    }
+}
